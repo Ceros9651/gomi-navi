@@ -26,7 +26,7 @@
 
 - [x] 4.1 `.github/workflows/deploy.yml`（`npm ci` → `npm test` → `npm run build` → Pagesへデプロイ）を作成する
 - [x] 4.2 `README.md` に、使い方（iPhoneでホーム画面に追加する手順）、開発コマンド、毎年のカレンダー更新手順（`exceptions.ts` と期待値fixtureの追加）を書く
-- [ ] 4.3 ユーザーの確認をとってから、Pagesのソースを「GitHub Actions」に設定して `main` をpushする。Actionsが成功し、https://ceros9651.github.io/gomi-navi/ が表示されることを確認する
+- [x] 4.3 ユーザーの確認をとってから、Pagesのソースを「GitHub Actions」に設定して `main` をpushする。Actionsが成功し、https://ceros9651.github.io/gomi-navi/ が表示されることを確認する
 
 ## 5. 実機での確認
 
