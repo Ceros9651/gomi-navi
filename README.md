@@ -29,7 +29,7 @@ npm run preview    # ビルド結果の確認（Service Worker も動く）
 
 開発サーバーでは `?now=2026-12-29T07:30` を付けると、その日時として表示できます（本番ビルドでは無効）。
 
-`main` にpushすると、GitHub Actions がテストとビルドを行い、GitHub Pages に公開します（テストが失敗したら公開しません）。
+`main` にpushすると、GitHub Actions がテストとビルドを行い、GitHub Pages に公開します（テストが失敗したら公開しません）。仕組みと設定の記録は [docs/github-pages.md](docs/github-pages.md) を参照してください。
 
 ## 毎年のカレンダー更新
 
