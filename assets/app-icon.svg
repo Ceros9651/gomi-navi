@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+  <!-- ごみナビのアプリアイコン原図（public/ のPNGはこれから書き出す）。iOSが角を丸めるので全面を塗る -->
+  <rect width="512" height="512" fill="#2a7bc4"/>
+  <g fill="none" stroke="#fff" stroke-width="28" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M136 168h240"/>
+    <path d="M216 168v-28a20 20 0 0 1 20-20h40a20 20 0 0 1 20 20v28"/>
+    <path d="M160 168l20 222a24 24 0 0 0 24 22h104a24 24 0 0 0 24-22l20-222"/>
+  </g>
+  <path transform="translate(172 196) scale(7)" d="M12 21c-3.9 0-6.5-2.6-6.5-6.1 0-3.2 2.3-5.2 3.6-7.4.3 1.6 1 2.6 2 3.2C11.3 7.4 12.6 4.6 15 3c-.3 2.6.6 4.4 1.9 6.1 1 1.4 1.6 3 1.6 4.8 0 4.3-2.6 7.1-6.5 7.1Z" fill="#fff04a"/>
+</svg>
