@@ -8,6 +8,12 @@ schema: spec-driven
 #     Tech stack: TypeScript, React, Node.js
 #     We use conventional commits
 #     Domain: e-commerce platform
+context: |
+  Domain: 春日井市 E地区のごみ出し日を表示する個人・家族用Webアプリ（参照: 2026年版 資源・ごみ出しカレンダー E地区）
+  Target: iPhone Safari（ホーム画面に追加するPWA）
+  Tech stack: Vite + TypeScript（フレームワークなし）, Vitest, vite-plugin-pwa
+  Hosting: GitHub Pages（https://ceros9651.github.io/gomi-navi/ , base: /gomi-navi/）, GitHub Actions でデプロイ
+  Language: UI・ドキュメントは日本語
 
 # Per-artifact rules (optional)
 # Add custom rules for specific artifacts.
