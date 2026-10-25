@@ -11,7 +11,7 @@ const date = (key: string): CalendarDate => {
 const categoriesOf = (key: string) => getCollection(date(key)).items.map((i) => i.category)
 
 describe('ごみの種類', () => {
-  it('6種類すべてに表示名と1つ以上の品目例がある', () => {
+  it('6種類すべてに表示名・短い名前と1つ以上の品目例がある', () => {
     expect(CATEGORIES.map((c) => c.id)).toEqual([
       'burnable',
       'nonBurnable',
@@ -22,6 +22,7 @@ describe('ごみの種類', () => {
     ])
     for (const c of CATEGORIES) {
       expect(c.name).not.toBe('')
+      expect(c.shortName).not.toBe('')
       expect(c.examples.length).toBeGreaterThan(0)
     }
   })

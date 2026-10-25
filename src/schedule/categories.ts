@@ -9,6 +9,7 @@ export const CATEGORIES: readonly Category[] = [
   {
     id: 'burnable',
     name: '燃やせるごみ',
+    shortName: '燃やせる',
     examples: [
       '生ごみ（水切りにご協力ください）',
       'リサイクルできない紙',
@@ -23,6 +24,7 @@ export const CATEGORIES: readonly Category[] = [
   {
     id: 'nonBurnable',
     name: '燃やせないごみ',
+    shortName: '燃やせない',
     examples: [
       'ガラス、陶器類',
       'ガラスとプラスチックの複合物',
@@ -35,6 +37,7 @@ export const CATEGORIES: readonly Category[] = [
   {
     id: 'plastic',
     name: 'プラスチック製容器包装',
+    shortName: 'プラ',
     examples: [
       'トレイ、卵・豆腐・弁当のパック',
       'カップめんやヨーグルトの容器',
@@ -47,6 +50,7 @@ export const CATEGORIES: readonly Category[] = [
   {
     id: 'cansBottles',
     name: '飲料缶、ガラスびん、ペットボトル',
+    shortName: '缶・びん・ペット',
     examples: [
       'スチール製・アルミ製の飲料缶',
       '飲食用や調味料の空きびん（キャップは外す）',
@@ -56,6 +60,7 @@ export const CATEGORIES: readonly Category[] = [
   {
     id: 'paperClothes',
     name: '新聞紙、雑誌・雑がみ、段ボール、牛乳パック類、古着',
+    shortName: '古紙・古着',
     examples: [
       '新聞紙・折込チラシ',
       '段ボール',
@@ -67,6 +72,7 @@ export const CATEGORIES: readonly Category[] = [
   {
     id: 'metal',
     name: '金属類（小型家電、電池類、発火性危険物を含む）',
+    shortName: '金属類',
     examples: [
       '鍋、やかん、フライパン、包丁、傘',
       '小型家電（ドライヤー、炊飯器、ゲーム機、電話など）',

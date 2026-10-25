@@ -10,6 +10,8 @@ export type CategoryId =
 export interface Category {
   id: CategoryId
   name: string
+  /** 2日後以降のコンパクトな行で使う短い名前 */
+  shortName: string
   /** 品目例（春日井市の公式情報に記載のもの） */
   examples: string[]
 }

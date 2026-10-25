@@ -219,6 +219,106 @@ body {
   font-size: 0.8125rem;
 }
 
+.upcoming {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: 16px;
+  padding: 12px 14px 4px;
+  margin-bottom: 12px;
+}
+
+.upcoming h2 {
+  margin: 0 0 4px;
+  color: var(--text-muted);
+  font-size: 0.875rem;
+}
+
+.week {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.row {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  min-height: 44px;
+  padding: 6px 0;
+  border-top: 1px solid var(--border);
+}
+
+.row:first-child {
+  border-top: 0;
+}
+
+.row-date {
+  flex: none;
+  width: 5.5em;
+  font-weight: bold;
+  font-variant-numeric: tabular-nums;
+}
+
+.chips {
+  flex: 1;
+  min-width: 0;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 4px;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.chip {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  padding: 2px 8px 2px 4px;
+  border-radius: 999px;
+  background: var(--cat-color);
+  color: var(--item-text);
+  font-size: 0.8125rem;
+  font-weight: bold;
+}
+
+.chip-icon {
+  display: grid;
+  place-items: center;
+  width: 22px;
+  height: 22px;
+  border-radius: 50%;
+  background: rgb(255 255 255 / 0.55);
+}
+
+.chip-icon svg {
+  width: 16px;
+  height: 16px;
+}
+
+.chip-badge {
+  padding: 0 6px;
+  border-radius: 999px;
+  background: var(--item-text);
+  color: #fff;
+  font-size: 0.6875rem;
+}
+
+.row-none {
+  flex: 1;
+  color: var(--text-muted);
+  font-size: 0.8125rem;
+}
+
+.row-estimated {
+  flex: none;
+  padding: 1px 6px;
+  border-radius: 6px;
+  background: var(--warn-bg);
+  color: var(--warn-text);
+  font-size: 0.6875rem;
+}
+
 .note {
   margin: 4px 0 0;
   color: var(--text-muted);

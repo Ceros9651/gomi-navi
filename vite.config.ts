@@ -13,7 +13,7 @@ export default defineConfig({
       manifest: {
         name: 'ごみナビ',
         short_name: 'ごみナビ',
-        description: '春日井市 E地区の今日と明日のごみ出し日',
+        description: '春日井市 E地区の今日から1週間のごみ出し日',
         lang: 'ja',
         start_url: '/gomi-navi/',
         scope: '/gomi-navi/',
