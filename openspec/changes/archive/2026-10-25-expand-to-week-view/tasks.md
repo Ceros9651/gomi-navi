@@ -17,7 +17,7 @@
 ## 4. 説明文とドキュメント
 
 - [x] 4.1 `vite.config.ts` のマニフェスト `description`、`index.html` の `meta description`、`README.md` の冒頭の説明を「今日から1週間」の表現に更新し、`npm run build` が通ることを確認する
-- [ ] 4.2 アーカイブ時に、`openspec/specs/daily-view/spec.md` の Purpose（「今日とその翌日」）を「今日から1週間」に合わせて書き換える（delta では Purpose を変えられないため）。書き換えた後に `openspec validate --specs --strict` が通ることを確認する
+- [x] 4.2 アーカイブ時に、`openspec/specs/daily-view/spec.md` の Purpose（「今日とその翌日」）を「今日から1週間」に合わせて書き換える（delta では Purpose を変えられないため）。書き換えた後に `openspec validate --specs --strict` が通ることを確認する
 
 ## 5. 実機での確認
 
